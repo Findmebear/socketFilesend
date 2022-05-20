@@ -25,6 +25,7 @@ Example: `./build/run/client --hostname 127.0.0.1:5009 --request logo.svg`
 
 If you have a file called `file.txt` with the contents `Hello`, then the serialzied, unencrypted message should look like this:
 
+```
 ┌───────────────────────────────────────────────────────────────────────────────┐
 │0xae     // map tag                                                            │
 │0x01     // 1 kv pair                                                          │
@@ -67,6 +68,7 @@ In decimal:
 ```
 [174, 1, 170, 4, 70, 105, 108, 101, 174, 2, 170, 4, 110, 97, 109, 101, 170, 8, 102, 105, 108, 101, 46, 116, 120, 116, 170, 5, 98, 121, 116, 101, 115, 172, 5, 162, 72, 162, 101, 162, 108, 162, 108, 162, 111]
 ```
+
 
 ### Serialized Request
 
